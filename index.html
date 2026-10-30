@@ -1,68 +1,382 @@
-<a href="https://wa.me/5511999998888?text=Ol%C3%A1!%20Vim%20pelo%20site"
-   class="wa-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
-  <svg viewBox="0 0 32 32" width="28" height="28" fill="#fff" aria-hidden="true">
-    <path d="M16 3C9.4 3 4 8.3 4 14.9c0 2.1.6 4.1 1.6 5.9L4 29l8.4-1.6c1.7.9 3.6 1.4 5.6 1.4 6.6 0 12-5.3 12-11.9S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.3l-.4-.2-5 1 1-4.8-.3-.4c-1-1.6-1.5-3.4-1.5-5.2 0-5.5 4.6-10 10.2-10s10.2 4.5 10.2 10-4.6 9.9-10.2 9.9zm5.6-7.4c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6c.2-.2.2-.3.3-.6.1-.2 0-.4 0-.6-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.6 5.6 5 .8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 1.8-.7 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4z"/>
-  </svg>
-  <span>Fale conosco</span>
-</a>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conteleve Contabilidade Consultiva | Barueri e Online</title>
+<meta name="description" content="Contabilidade consultiva em Barueri (Centro, perto de Alphaville) e online para Osasco, Santana de Parnaíba, Cotia e Grande São Paulo. Abertura de empresa, MEI para ME, planejamento tributário e folha.">
+<meta name="theme-color" content="#4B2A7B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 
-<style>
-.wa-float {
-  position: fixed;
-  right: 20px;
-  bottom: calc(20px + env(safe-area-inset-bottom, 0px));
-  z-index: 9999;
-  display: flex;
-  align-items: center;
-  gap: 0;
-  height: 56px;
-  padding: 0 14px;
-  border-radius: 999px;
-  background: #25D366;
-  color: #fff;
-  font: 600 15px/1 system-ui, -apple-system, "Segoe UI", sans-serif;
-  text-decoration: none;
-  box-shadow: 0 6px 20px rgba(37, 211, 102, .45);
-  -webkit-tap-highlight-color: transparent;
-  transition: transform .2s ease, box-shadow .2s ease, gap .25s ease, padding .25s ease;
+<!-- SEO local: ajuda a aparecer no Google -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AccountingService",
+  "name": "Conteleve Contabilidade Consultiva",
+  "telephone": "+55 11 94962-8935",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "R. Adelino Cardana, 293 - 19º andar, Edifício Office Innovation",
+    "addressLocality": "Barueri",
+    "addressRegion": "SP",
+    "postalCode": "06401-147",
+    "addressCountry": "BR"
+  },
+  "areaServed": ["Barueri","Alphaville","Osasco","Santana de Parnaíba","Cotia","Grande São Paulo"],
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "23" },
+  "openingHours": "Mo-Fr 09:00-18:00"
 }
-.wa-float span {
-  max-width: 0;
-  overflow: hidden;
-  white-space: nowrap;
-  opacity: 0;
-  transition: max-width .3s ease, opacity .2s ease;
-}
-.wa-float:hover,
-.wa-float:focus-visible {
-  gap: 10px;
-  padding: 0 20px 0 14px;
-  transform: translateY(-2px);
-  box-shadow: 0 10px 28px rgba(37, 211, 102, .55);
-}
-.wa-float:hover span,
-.wa-float:focus-visible span {
-  max-width: 160px;
-  opacity: 1;
-}
-.wa-float:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+</script>
+</head>
+<body>
 
-/* pulso sutil */
-.wa-float::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  background: #25D366;
-  z-index: -1;
-  animation: wa-pulse 2.4s ease-out infinite;
-}
-@keyframes wa-pulse {
-  0%   { transform: scale(1);   opacity: .5; }
-  100% { transform: scale(1.5); opacity: 0; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .wa-float, .wa-float span { transition: none; }
-  .wa-float::before { animation: none; }
-}
-</style>
+<!-- ============ HEADER ============ -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#inicio" class="logo" aria-label="Conteleve Contabilidade Consultiva">
+      <svg class="logo__mark" viewBox="0 0 48 48" aria-hidden="true">
+        <defs>
+          <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#1F3E8F"/><stop offset="1" stop-color="#7A3FA0"/>
+          </linearGradient>
+        </defs>
+        <g fill="none" stroke="url(#lg)" stroke-width="3.2" stroke-linejoin="round">
+          <rect x="4" y="4" width="18" height="18" rx="5"/>
+          <rect x="26" y="4" width="18" height="18" rx="5"/>
+          <rect x="4" y="26" width="18" height="18" rx="5"/>
+          <rect x="26" y="26" width="18" height="18" rx="5"/>
+        </g>
+      </svg>
+      <span class="logo__text"><b>CONT</b>ELEVE</span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#mei-me">MEI para ME</a>
+      <a href="#resultados">Resultados</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#faq">Dúvidas</a>
+      <a href="#contato">Contato</a>
+      <a class="btn btn--primary nav__cta" href="#contato">Falar com um contador</a>
+    </nav>
+
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="hero__bg" aria-hidden="true"></div>
+  <div class="container hero__grid">
+    <div class="hero__text reveal">
+      <span class="eyebrow">Contabilidade consultiva · Barueri e online</span>
+      <h1>Sua empresa cresce. A contabilidade <span class="grad">acompanha cada passo.</span></h1>
+      <p class="lead">Impostos, folha, prazos e regras que mudam toda hora: deixe com uma equipe que explica cada número, planeja o seu regime tributário e responde pelo WhatsApp. Atendimento presencial em Barueri e consultoria 100% online.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary btn--lg" href="#contato">Agendar diagnóstico contábil</a>
+        <a class="btn btn--ghost btn--lg" href="#servicos">Ver serviços</a>
+      </div>
+      <ul class="hero__stats">
+        <li><strong data-count="5.0" data-decimals="1">5,0</strong><span>★ nota no Google</span></li>
+        <li><strong data-count="23">23</strong><span>avaliações de clientes</span></li>
+        <li><strong>Barueri</strong><span>+ atendimento online</span></li>
+      </ul>
+    </div>
+
+    <div class="hero__card reveal">
+      <h2>O que você precisa agora?</h2>
+      <p class="muted">Escolha e já abrimos uma conversa no WhatsApp.</p>
+      <div class="needs">
+        <button class="need" data-msg="Quero abrir uma empresa"><i>🏢</i><span><b>Abrir uma empresa</b><small>Tipo de empresa e regime ideal</small></span></button>
+        <button class="need" data-msg="Quero trocar de contador"><i>🔄</i><span><b>Trocar de contador</b><small>Transição organizada, sem dor de cabeça</small></span></button>
+        <button class="need" data-msg="Quero sair do MEI e virar ME"><i>🚀</i><span><b>Sair do MEI e virar ME</b><small>Passou do limite ou vai ter sócio</small></span></button>
+        <button class="need" data-msg="Preciso de planejamento tributário"><i>📊</i><span><b>Planejamento tributário</b><small>Pague o imposto certo, sem surpresas</small></span></button>
+        <button class="need" data-msg="Preciso de ajuda com Imposto de Renda"><i>🧾</i><span><b>Imposto de Renda</b><small>Declaração, atraso e malha fina</small></span></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DORES ============ -->
+<section class="section section--soft" id="dores">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Você não está sozinho</span>
+      <h2>Empreender já é difícil. A contabilidade não precisa ser.</h2>
+    </div>
+    <div class="grid grid--3">
+      <article class="card reveal"><div class="card__icon">⏳</div><h3>Burocracia que rouba o seu tempo</h3><p>Papelada, prazos e portais do governo no meio da sua semana, quando você deveria estar vendendo e atendendo.</p></article>
+      <article class="card reveal"><div class="card__icon">🤖</div><h3>Falar com robô quando precisa de resposta</h3><p>Fila, protocolo e mensagem automática justamente quando surge uma dúvida importante.</p></article>
+      <article class="card reveal"><div class="card__icon">💸</div><h3>Imposto que vira surpresa</h3><p>Guia sem explicação, regime escolhido sem análise e uma reforma tributária mudando as regras.</p></article>
+    </div>
+    <p class="callout reveal"><b>O que está em jogo:</b> perder um prazo ou ficar no regime errado custa caro, em multas, imposto pago sem necessidade e tempo que deveria ir para o seu negócio.</p>
+  </div>
+</section>
+
+<!-- ============ SERVIÇOS ============ -->
+<section class="section" id="servicos">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Serviços</span>
+      <h2>Contabilidade completa, com visão de consultor</h2>
+      <p>Do primeiro CNPJ à gestão do dia a dia, cuidamos da parte contábil para você cuidar do negócio.</p>
+    </div>
+    <div class="grid grid--3">
+      <article class="card card--link reveal"><div class="card__icon">🏢</div><h3>Abertura de empresa</h3><p>Escolha do tipo societário, CNAEs, contrato social e registros nos órgãos competentes.</p><a href="#contato" data-service="Abertura de empresa">Quero abrir →</a></article>
+      <article class="card card--link reveal"><div class="card__icon">🚀</div><h3>MEI para Microempresa</h3><p>Desenquadramento com segurança, escolha do regime e adequação de notas fiscais.</p><a href="#mei-me" >Saiba mais →</a></article>
+      <article class="card card--link reveal"><div class="card__icon">📊</div><h3>Planejamento tributário</h3><p>Comparativo entre Simples Nacional e Lucro Presumido para pagar o imposto certo.</p><a href="#contato" data-service="Planejamento tributário">Quero analisar →</a></article>
+      <article class="card card--link reveal"><div class="card__icon">👥</div><h3>Folha de pagamento</h3><p>Admissões, férias, rescisões, eSocial e obrigações acessórias em dia.</p><a href="#contato" data-service="Folha de pagamento">Falar sobre folha →</a></article>
+      <article class="card card--link reveal"><div class="card__icon">🔄</div><h3>Troca de contador</h3><p>Transição organizada com o escritório atual, sem interromper a sua rotina.</p><a href="#contato" data-service="Troca de contador">Quero trocar →</a></article>
+      <article class="card card--link reveal"><div class="card__icon">🧾</div><h3>Imposto de Renda</h3><p>Declaração, retificação, atraso e malha fina para pessoa física e sócios.</p><a href="#contato" data-service="Imposto de Renda">Falar sobre IR →</a></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEI -> ME ============ -->
+<section class="section section--dark" id="mei-me">
+  <div class="container split">
+    <div class="reveal">
+      <span class="eyebrow eyebrow--light">Destaque</span>
+      <h2>Sua empresa passou do limite do MEI?</h2>
+      <p class="lead lead--light">Migrar de MEI para Microempresa (ME) é um marco importante, mas exige planejamento tributário estratégico para evitar surpresas fiscais e custos desnecessários.</p>
+      <a class="btn btn--light btn--lg" href="#contato" data-service="MEI para ME">Agendar diagnóstico contábil</a>
+    </div>
+    <ul class="checks reveal">
+      <li><b>Regime mais vantajoso</b><span>Simples Nacional ou Lucro Presumido, com análise real.</span></li>
+      <li><b>CNAEs e notas fiscais</b><span>Adequação das atividades e emissão correta de notas.</span></li>
+      <li><b>Contrato social e registro</b><span>Elaboração e registro nos órgãos competentes.</span></li>
+      <li><b>Folha e obrigações acessórias</b><span>Gestão de folha de pagamento e rotinas fiscais.</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 3 ENTREGAS: RESULTADOS ============ -->
+<section class="section" id="resultados">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Por que a Conteleve</span>
+      <h2>Três entregas claras para o seu negócio ser encontrado, respeitado e atendido</h2>
+    </div>
+
+    <div class="pillars">
+      <article class="pillar reveal">
+        <span class="pillar__num">01</span>
+        <h3>Seja encontrado no Google e nas redes</h3>
+        <p>Presença local forte para quem procura contador em Barueri, Alphaville, Osasco, Santana de Parnaíba, Cotia e Grande São Paulo, com conteúdo no Instagram que traz clientes novos.</p>
+        <ul><li>Perfil otimizado no Google Maps</li><li>Conteúdo útil nas redes sociais</li><li>Cada visita vira uma conversa no WhatsApp</li></ul>
+      </article>
+      <article class="pillar reveal">
+        <span class="pillar__num">02</span>
+        <h3>Autoridade que justifica um valor maior</h3>
+        <p>Avaliação 5,0 no Google, atendimento consultivo e diagnóstico contábil antes de qualquer proposta. Quem entende o seu negócio entrega mais do que guias.</p>
+        <ul><li>Diagnóstico e planejamento tributário</li><li>Clientes que recomendam há anos</li><li>Proposta clara, explicada número a número</li></ul>
+      </article>
+      <article class="pillar reveal">
+        <span class="pillar__num">03</span>
+        <h3>WhatsApp integrado, sem perder nenhum contato</h3>
+        <p>Toda página leva ao WhatsApp com a mensagem já preenchida. Escreva a qualquer hora do dia: seu pedido chega organizado e ninguém fica sem resposta.</p>
+        <ul><li>Botão flutuante em todas as telas</li><li>Formulário que abre a conversa</li><li>Assunto já identificado para agilizar</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMO FUNCIONA ============ -->
+<section class="section section--soft" id="como-funciona">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Como funciona</span>
+      <h2>Do primeiro contato à contabilidade em dia, em 4 passos</h2>
+    </div>
+    <ol class="steps">
+      <li class="reveal"><span>1</span><h3>Você fala</h3><p>Conte sobre a sua empresa ou projeto. A gente escuta antes de propor.</p></li>
+      <li class="reveal"><span>2</span><h3>Diagnóstico e proposta</h3><p>Analisamos o seu cenário e enviamos o plano indicado por escrito.</p></li>
+      <li class="reveal"><span>3</span><h3>Documentação digital</h3><p>Você envia tudo pelo celular. Cuidamos da abertura ou da transição.</p></li>
+      <li class="reveal"><span>4</span><h3>Assumimos a rotina</h3><p>Impostos, folha e obrigações em dia, com quem conhece a sua empresa.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ ANTES / DEPOIS + ESCRITÓRIO ============ -->
+<section class="section">
+  <div class="container split split--center">
+    <div class="reveal">
+      <span class="eyebrow">Com a Conteleve</span>
+      <h2>Como fica a sua rotina</h2>
+      <p class="lead">Menos tempo com burocracia, mais clareza para decidir e alguém de verdade do outro lado.</p>
+      <ul class="ticks">
+        <li>Você sabe quanto vai pagar e por quê, antes de a guia vencer.</li>
+        <li>Fala com uma pessoa que conhece a sua empresa, pelo WhatsApp.</li>
+        <li>Recebe os números para decidir, sem planilha nem papelada.</li>
+        <li>Tem mais tempo para vender e atender os seus clientes.</li>
+      </ul>
+      <a class="btn btn--primary" href="#contato">Quero essa rotina</a>
+    </div>
+    <div class="office reveal" aria-label="Escritório Conteleve">
+      <div class="office__wall">
+        <div class="office__logo">
+          <svg viewBox="0 0 48 48" width="54" height="54" aria-hidden="true"><g fill="none" stroke="url(#lg)" stroke-width="3.2"><rect x="4" y="4" width="18" height="18" rx="5"/><rect x="26" y="4" width="18" height="18" rx="5"/><rect x="4" y="26" width="18" height="18" rx="5"/><rect x="26" y="26" width="18" height="18" rx="5"/></g></svg>
+          <span><b>CONT</b>ELEVE</span>
+        </div>
+      </div>
+      <p class="office__cap">📍 Edifício Office Innovation, 19º andar, Centro de Barueri</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ÁREA DE ATENDIMENTO ============ -->
+<section class="section section--soft" id="atendimento">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Onde atendemos</span>
+      <h2>Presencial em Barueri. Consultoria online na Grande São Paulo.</h2>
+    </div>
+    <div class="chips reveal">
+      <span>Barueri</span><span>Alphaville</span><span>Osasco</span><span>Santana de Parnaíba</span><span>Cotia</span><span>Grande São Paulo</span><span>Online</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DEPOIMENTOS ============ -->
+<section class="section" id="depoimentos">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Depoimentos</span>
+      <h2>Quem já confia na Conteleve</h2>
+      <div class="rating"><span class="stars">★★★★★</span> <b>5,0</b> <span class="muted">· 23 avaliações no Google</span></div>
+    </div>
+    <div class="grid grid--3">
+      <figure class="quote reveal">
+        <div class="stars">★★★★★</div>
+        <blockquote>A Laís é uma excelente profissional, sempre atenta às mudanças tributárias. Super indico.</blockquote>
+        <figcaption><b>Alessandra Soares da Silva</b><small>Avaliação no Google</small></figcaption>
+        <p class="reply"><b>Resposta da Conteleve:</b> Muito obrigado pela confiança e recomendação! Conte sempre com a Conteleve.</p>
+      </figure>
+      <figure class="quote reveal">
+        <div class="stars">★★★★★</div>
+        <blockquote>Contabilidade de confiança, me dá todo suporte que preciso com minha empresa e está sempre à disposição para ajudar. A Laís é incrível e a equipe também.</blockquote>
+        <figcaption><b>Carolina Nascimento</b><small>Avaliação no Google</small></figcaption>
+        <p class="reply"><b>Resposta da Conteleve:</b> Fico feliz em saber que nosso suporte fez a diferença para você.</p>
+      </figure>
+      <figure class="quote reveal">
+        <div class="stars">★★★★★</div>
+        <blockquote>Parabenizo o atendimento e a gestão da minha empresa. Sou cliente há anos e só tenho a agradecer pelo profissionalismo.</blockquote>
+        <figcaption><b>Alex Figueredo</b><small>Local Guide · Avaliação no Google</small></figcaption>
+        <p class="reply"><b>Resposta da Conteleve:</b> Obrigado pela confiança e pelo incentivo ao longo desses cinco anos.</p>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section section--soft" id="faq">
+  <div class="container container--narrow">
+    <div class="section__head reveal">
+      <span class="eyebrow">Dúvidas frequentes</span>
+      <h2>Contabilidade consultiva com a Conteleve</h2>
+    </div>
+    <div class="faq reveal">
+      <details open><summary>Como funciona o atendimento?</summary><p>Você pode falar com a equipe pelo WhatsApp, telefone ou presencialmente em Barueri, com hora marcada. Para empresas de outras cidades, a consultoria é 100% online.</p></details>
+      <details><summary>Vocês atendem empresas fora de Barueri?</summary><p>Sim. Atendemos Osasco, Santana de Parnaíba, Cotia e toda a Grande São Paulo com suporte consultivo online.</p></details>
+      <details><summary>Qual regime tributário é melhor para mim?</summary><p>Depende de faturamento, atividade, folha e margem. Fazemos o comparativo entre Simples Nacional e Lucro Presumido no diagnóstico contábil.</p></details>
+      <details><summary>Quanto custa?</summary><p>Os honorários variam conforme porte, regime e serviços. Depois da conversa inicial, enviamos a proposta por escrito.</p></details>
+      <details><summary>Já tenho contador. Como funciona a troca?</summary><p>Cuidamos da transição junto ao escritório atual, reunindo documentos e obrigações para que nada fique sem acompanhamento.</p></details>
+      <details><summary>Ultrapassei o limite do MEI. E agora?</summary><p>É hora do desenquadramento para ME. Avaliamos o melhor regime, ajustamos CNAEs e notas fiscais e cuidamos do contrato social e dos registros.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTATO ============ -->
+<section class="section section--gradient" id="contato">
+  <div class="container split">
+    <div class="reveal contact__info">
+      <span class="eyebrow eyebrow--light">Conversa inicial sem compromisso</span>
+      <h2>Fale com um contador da Conteleve</h2>
+      <p class="lead lead--light">Preencha o formulário e abrimos uma conversa no WhatsApp com os dados da sua empresa já organizados, para você ser atendido mais rápido.</p>
+      <ul class="contact__list">
+        <li>📍 <span>Office Innovation, R. Adelino Cardana, 293, 19º andar<br>Centro, Barueri - SP · CEP 06401-147</span></li>
+        <li>📞 <a href="tel:+5511949628935">(11) 94962-8935</a></li>
+        <li>💬 <a href="https://wa.me/5511949628935" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li>📸 <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+        <li>🕘 Atendimento até as 18h</li>
+      </ul>
+      <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=R.+Adelino+Cardana+293+Barueri+SP" target="_blank" rel="noopener">Ver rota no Google Maps →</a>
+    </div>
+
+    <form class="form reveal" id="leadForm" novalidate>
+      <h3>Fale com um contador</h3>
+      <p class="muted">Leva menos de 1 minuto.</p>
+      <label>Seu nome<input type="text" name="nome" placeholder="Como podemos te chamar?" required></label>
+      <label>Telefone / WhatsApp<input type="tel" name="telefone" placeholder="(11) 99999-9999" required></label>
+      <label>E-mail<input type="email" name="email" placeholder="voce@empresa.com.br"></label>
+      <label>Serviço desejado
+        <select name="servico" id="servico" required>
+          <option value="">Selecione</option>
+          <option>Abertura de empresa</option>
+          <option>MEI para ME</option>
+          <option>Planejamento tributário</option>
+          <option>Troca de contador</option>
+          <option>Folha de pagamento</option>
+          <option>Imposto de Renda</option>
+          <option>Outro assunto</option>
+        </select>
+      </label>
+      <button type="submit" class="btn btn--primary btn--block">Enviar pelo WhatsApp</button>
+      <p class="form__msg" id="formMsg" role="status"></p>
+      <small class="muted">🔒 Seus dados são usados apenas para o contato (LGPD).</small>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div>
+      <div class="logo logo--light"><svg class="logo__mark" viewBox="0 0 48 48" aria-hidden="true"><g fill="none" stroke="#fff" stroke-width="3.2"><rect x="4" y="4" width="18" height="18" rx="5"/><rect x="26" y="4" width="18" height="18" rx="5"/><rect x="4" y="26" width="18" height="18" rx="5"/><rect x="26" y="26" width="18" height="18" rx="5"/></g></svg><span class="logo__text"><b>CONT</b>ELEVE</span></div>
+      <p>Contabilidade consultiva para empresas que querem crescer com solidez e conformidade. Barueri e online.</p>
+    </div>
+    <div>
+      <h4>Navegação</h4>
+      <a href="#servicos">Serviços</a><a href="#mei-me">MEI para ME</a><a href="#depoimentos">Depoimentos</a><a href="#faq">Dúvidas</a>
+    </div>
+    <div>
+      <h4>Contato</h4>
+      <a href="tel:+5511949628935">(11) 94962-8935</a>
+      <span>R. Adelino Cardana, 293 - 19º andar<br>Centro, Barueri - SP</span>
+    </div>
+  </div>
+  <div class="container footer__legal">
+    <p>© <span id="year"></span> Conteleve Contabilidade Consultiva. Todos os direitos reservados. As informações deste site têm caráter informativo e não substituem a análise de um profissional. Taxas e licenças públicas são cobradas à parte pelos órgãos competentes.</p>
+    <!-- Adicione aqui o CNPJ e o registro no CRC-SP da Conteleve -->
+  </div>
+</footer>
+
+<!-- ============ WHATSAPP FLUTUANTE ============ -->
+<div class="wa" id="wa">
+  <div class="wa__panel" id="waPanel" hidden>
+    <div class="wa__head"><b>Conteleve</b><span>Fale a qualquer hora</span></div>
+    <p>Olá! 👋 Sobre o que você quer falar?</p>
+    <button data-msg="Quero abrir uma empresa">Abrir empresa</button>
+    <button data-msg="Quero sair do MEI e virar ME">MEI para ME</button>
+    <button data-msg="Quero trocar de contador">Trocar de contador</button>
+    <button data-msg="Preciso de planejamento tributário">Planejamento tributário</button>
+    <button data-msg="Quero falar com um contador">Outro assunto</button>
+  </div>
+  <button class="wa__btn" id="waBtn" aria-label="Abrir conversa no WhatsApp">
+    <svg viewBox="0 0 32 32" width="30" height="30" fill="#fff" aria-hidden="true"><path d="M16 3C9 3 3.4 8.6 3.4 15.5c0 2.4.7 4.6 1.9 6.5L3.3 29l7.2-1.9c1.8 1 3.8 1.500 5.500 1.500 7 0 12.600-5.600 12.600-12.500S23 3 16 3zm0 22.800c-1.700 0-3.400-.5-4.800-1.300l-.4-.2-4.200 1.100 1.100-4.100-.3-.4a10.300 10.300 0 1 1 8.600 4.900zm5.700-7.700c-.3-.2-1.900-.9-2.200-1-.3-.1-.5-.2-.7.200s-.8 1-1 1.200c-.2.200-.4.200-.7.100-.3-.2-1.400-.5-2.600-1.600-1-.9-1.600-1.900-1.800-2.200-.2-.3 0-.5.100-.7l.5-.6c.2-.2.200-.3.300-.5.100-.2.100-.4 0-.6l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.100-.9.400-.3.300-1.200 1.200-1.200 2.800s1.200 3.300 1.400 3.500c.2.200 2.400 3.700 5.800 5.100.8.4 1.500.6 2 .7.800.3 1.600.2 2.200.1.700-.1 1.900-.8 2.200-1.500.3-.7.300-1.400.2-1.500-.1-.1-.3-.2-.6-.4z"/></svg>
+  </button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
